@@ -7,7 +7,7 @@ body{
 img{
     max-width: 100%;
 }
-.bgc{
+.bg-color{
     background-color: #ddd;
 }
 .benner-section{
@@ -56,11 +56,11 @@ img{
 .part-2{
   max-width: 100%;
 }
-.donate{
+.text-contants{
     text-align: center;
     font-size: 30px;
 }
-.donate p{
+.text-contants p{
     font-size: 30px;
     width: 50%;
     margin: auto;
@@ -101,10 +101,14 @@ img{
 }
 
 .btn-class{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
-
+hr{
+    width: 60%;
+    color: #60606047;
+    
+}
 
 
 /* part-2 */
@@ -234,9 +238,9 @@ img{
     font-size: 25px;
     box-sizing: border-box;
     border: none;
-    border-radius: 3px;
-    color: #ddd;
-    background-color: rgba(0, 0, 0, 0.48);
+    border-radius: 4px;
+    color: #606060;
+    background-color: rgba(221, 221, 221, 0.794);
 }
 .contact-section button{
     color: white;
@@ -244,9 +248,9 @@ img{
     padding: 20px 50px;
     font-size: 25px;
     box-sizing: border-box;
-    margin-left: -6px;
+    margin-left: -7px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     font-weight: 600;
 }
 
@@ -254,7 +258,7 @@ img{
 /* footer section */
 
 footer{
-    background-color: rgba(0, 0, 0, 0.372);
+    background-color: rgba(0, 0, 0, 0.209);
     padding: 5px;
     text-align: center;
 }
@@ -272,5 +276,6 @@ footer .btn{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #60606077;
 }
+
 
 
